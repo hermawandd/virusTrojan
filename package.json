@@ -1,0 +1,32 @@
+{
+  "name": "botwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "auth.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@bochilteam/scraper": "^4.0.22-alpha.0",
+    "axios": "^1.2.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "nmon": "^0.2.2",
+    "node-fetch": "^3.3.0",
+    "node-webpmux": "^3.1.3",
+    "nodemon": "^2.0.20",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
